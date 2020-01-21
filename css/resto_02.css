@@ -1,0 +1,261 @@
+    /* https://developer.mozilla.org/fr/docs/Web/CSS/box-sizing */
+ * {
+    box-sizing: border-box;
+}
+
+
+h1 {
+    height: 35px;
+    color: rgb(84, 84, 84);
+    text-align: center;
+    font-size: 34px; 
+    margin-right: 850px;
+}
+
+h3 {
+   text-align: center;
+   font-size: 30px;
+}
+
+.Pzone4 {
+   color: black;
+   font-family: 'Caveat Brush', cursive;
+   font-style: italic;
+} 
+
+.Pzone5 {
+   color: black;
+   font-family: 'Caveat Brush', cursive;
+   font-style: italic;
+} 
+
+.texte {
+color: black;
+width: 50%; 
+}
+
+.texte2 {
+color: black;
+width: 100%;
+}
+
+.texte3 {
+color: black;
+margin-top: 1%;
+margin-left: 74%;
+width: 25%;
+}
+
+/* pre {
+   width: 150px;
+   display: block;  
+ } */
+/* 
+img[src="../sebastien_resto_02/img/asperge.jpg"] {
+   box-shadow: 4px 4px 4px rgba(0,0,0,0.6); 
+}
+
+img[src="../sebastien_resto_02/img/savon.jpg"] {
+   box-shadow: 8px 8px 5px rgba(0,0,0,0.6); 
+   line-height: 100%;
+   margin-left: 25%;
+}
+
+
+img[src="../sebastien_resto_02/img/moule.jpg"] {
+   box-shadow: 8px 8px 5px rgba(0,0,0,0.6); 
+   line-height: 100%;
+   margin-left: 5%;
+   margin-bottom: 15px;
+}
+
+img[src="../sebastien_resto_02/img/oeuf.jpgg"] {
+   box-shadow: 8px 8px 5px rgba(0,0,0,0.6); 
+   line-height: 100%;
+   margin-left: 5%;
+   margin-top: 50px;
+   margin-bottom: 15px;
+   opacity: 50%;
+} */ 
+
+body {
+    width: 1000px;
+    height: 1600px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto;
+    color: white;
+}
+#conteneur {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+header {
+    background: url(../img/planches.jpg) no-repeat;
+    background-color: #464159;
+    min-height: 400px;
+    width: 100%;
+    font-family: 'Caveat Brush', cursive;
+}
+ /* les slyles css pour le haut et le bas de la page  */
+header {
+    height: 150px;
+    background-color:white;
+    text-align: center;
+    padding-top: 10px;
+}
+/* les styles pour la navigation dans l'élément nav */
+
+nav {
+    height:50px;
+    background-color: rgb(10, 17, 72);
+    padding-right: 0px; 
+    margin-top: 25px;
+    /* padding-top 5px; */
+} 
+nav ul {
+    /* pour être certain de ne pas avoir de puces dans cette ul */
+    list-style-type: none;
+    /* background-color: rgb(127, 187, 255);  */
+}
+/* pour pointer les li qui sont dans la balise nav */
+nav, li {
+    display: inline;
+}
+nav li a {
+    color: white;
+    background-color: rgb(208, 205, 205);
+    text-align: center;
+    padding: 6px;
+    font-family: fantasy;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 150px;
+    
+}
+/* le lien pas encore visité */
+nav li a:link {
+    color: teal;
+}
+/* le lien au survol de la souris */
+nav li a:hover {
+    color: royalblue;
+    background-color: rgb(255, 255, 255);
+}
+/* le lien clic de la souris, séléctionné */
+nav li a:active {
+    background-color: rgb(31, 7, 3);
+}
+/* le lien visité */
+nav li a:visited {
+    background-color:rgb(121, 118, 121);
+}
+
+/* les styles pour la section */
+
+/* section {
+    border: 1px solid lightgrey;
+    height: 100%;
+    text-align: center;
+} */
+
+
+/* les styles pour les différentes zones */
+
+
+.graines_01 {
+    margin-left: 120px;
+
+}
+.graines_02 {
+    margin-left: 120px;
+}
+
+.asperges { 
+    margin-left: 21px;
+}
+
+.GZone1, .GZone2 {
+    width: 1000px;
+    float: left; 
+}
+.GZone1 {
+    background-color:white;
+}
+
+.Pzone1, .Pzone2, .Pzone3, .Pzone4, .Pzone5, .Pzone6 {
+    height: 100%;
+    float: left;  
+    font-family: 'Caveat Brush', cursive; 
+    color: rgb(31, 7, 3);
+}
+
+.Pzone1 {
+    min-height: 400px ;
+    /* width: 30%; */
+    height: 400px;
+    background-color: #fff;
+    float: left;
+    color: black;
+    font-family: 'Caveat Brush', cursive;
+    
+} 
+
+.Pzone2 {
+    /* background: url(../img/asperge.jpg) no-repeat; */
+    /* width: 70%; */
+    height: 400px;
+    background-color: #fff;
+    float: left;  
+}
+
+.Pzone3 {
+    /* background: url(../img/savon.jpg) no-repeat; */
+    /* width: 70%; */
+    height: 400px;
+    background-color: #fff;
+    float: left;  
+}
+
+.Pzone4 {
+    /* width: 30%; */
+    height: 400px;
+    background-color: #fffe;
+    float: left;
+    
+}
+
+.Pzone5 {
+    width: 40%;
+    height: 400px;
+    background-color: #fffe;
+    float: left;
+   
+}
+
+.Pzone6 {
+    /* background: url(../img/moule.jpg) no-repeat; */
+    width: 60%;
+    height: 400px;
+    background-color: #fffe;
+}
+
+.GZone2 {
+    width: 100%;
+    background-color:white;
+}
+
+/* les styles pour le bas de la page */
+footer { 
+    background: white; 
+    height: 500px; 
+    width: 1000px;
+    float: left; 
+    color: rgb(31, 7, 3);
+    text-align: center;
+}
+.clear {
+    clear: both;
+}
